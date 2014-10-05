@@ -6,6 +6,10 @@
 	"author": {
 		"name": "co3moz"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/co3moz/build-chain"
+	},
 	"license": "MIT",
 	"bin": {
 		"build-chain": "./bin/bin-build-chain.js"
