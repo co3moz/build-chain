@@ -31,10 +31,14 @@ call build-chain with default parameter
 
 	build-chain
 
-call build-chain for only compiling
+call build-chain with only compile
 
 	build-chain compile
 
 call build-chain with double quotes
 
 	build-chain "my word"
+	
+call build-chain with multiple parameters
+
+	build-chain compile run "my word"
