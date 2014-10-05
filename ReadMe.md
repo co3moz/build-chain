@@ -10,7 +10,7 @@
 ``` json
 {
     "default": [
-        "build-chain compile run"
+        "# compile run"
     ],
     "compile": [
         "tsc -m commonjs --outDir build src/app.ts",

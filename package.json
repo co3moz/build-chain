@@ -1,14 +1,14 @@
 {
 	"name": "build-chain",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "simple command queue executor for building or starting appications",
-	"main": "build-chain.js",
+	"main": "./lib/build-chain.js",
 	"author": {
 		"name": "co3moz"
 	},
 	"license": "MIT",
 	"bin": {
-		"build-chain": "./bin/build-chain.js"
+		"build-chain": "./bin/bin-build-chain.js"
 	},
 	"readmeFilename": "ReadMe.md"
 }
