@@ -10,7 +10,7 @@
 ``` json
 {
     "default": [
-        "# compile run"
+        "build-chain compile run"
     ],
     "compile": [
         "tsc -m commonjs --outDir build src/app.ts",
@@ -19,10 +19,22 @@
     "run": [
         "node build/app.js",
         "echo Ok everything looks good"
-    ]
+    ],
+	"my word": [
+		"echo You can use double quotes for string",
+		"echo so see you :)"
+	]
 }
 ```
 
-build and run project
+call build-chain with default parameter
 
 	build-chain
+
+call build-chain for only compiling
+
+	build-chain compile
+
+call build-chain with double quotes
+
+	build-chain "my word"
