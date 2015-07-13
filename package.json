@@ -1,7 +1,7 @@
 {
 	"name": "build-chain",
 	"version": "0.0.3",
-	"description": "simple command queue executor for building or starting appications",
+	"description": "simple command queue executor for building or starting applications",
 	"main": "./lib/build-chain.js",
 	"author": {
 		"name": "co3moz"
